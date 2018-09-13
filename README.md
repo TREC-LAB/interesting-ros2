@@ -9,8 +9,7 @@
   
 ## Documentation
 
-- [ROS2 Design](http://design.ros2.org/) - Articles which inform and guide the ROS 2.0 design efforts.
-- [ROS2 Build](http://design.ros2.org/articles/build_tool.html) - ROS 2 build tools and buils systems. ***
+- [ROS2 Design](http://design.ros2.org/) - Articles which inform and guide the ROS 2.0 design efforts. ***
 - [ROS2 Docs (Overview)](http://docs.ros2.org/beta2/index.html#) - Details about ROS 2 internal design and organisation. 
 - [ROS2 Wiki Home](https://github.com/ros2/ros2/wiki) - Entry point to find all kind of information about ROS 2.
 - [ROS2 Wiki Tutorials](https://github.com/ros2/ros2/wiki/Tutorials) - Study about ROS2 concept, libraries, build, and development with demoes/examples. ***
