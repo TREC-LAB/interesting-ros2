@@ -1,22 +1,5 @@
-# Robot Operating System 2 (ROS 2) 
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 
 > A curated list of awesome Robot Operating System Version 2.0 (ROS 2) resources and libraries.
-
-## Contents
-
-- [Releases](#releases)
-- [Packages](#packages)
-- [Operating systems](#operating-systems)
-- [Documentation](#documentation)
-- [Community](#community)
-- [Books](#books)
-- [Courses](#courses)
-- [Presentations](#presentations)
-- [Papers](#papers)
-- [Podcasts](#podcasts)
 
 ## Releases
 
