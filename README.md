@@ -22,7 +22,7 @@
 
 ## Courses
 
-- [ROS2 How To: Discover Next Generation ROS (Udemy)](https://www.udemy.com/ros2-how-to/) :heavy_dollar_sign:
+- [ROS2 How To: Discover Next Generation ROS (Udemy)](https://www.udemy.com/ros2-how-to/) **$**
   
 ## Presentations
 
@@ -192,10 +192,10 @@ _**RMW (ROS middleware)**_
 
 _**DDS communication mechanism implementations**_
 
-  - [Connext DDS](https://www.rti.com/products/dds) - Connectivity Software for Developing and Integrating IIoT Systems :heavy_dollar_sign:
+  - [Connext DDS](https://www.rti.com/products/dds) - Connectivity Software for Developing and Integrating IIoT Systems  **$**
   - [Fast-RTPS](https://github.com/eProsima/Fast-RTPS) - Implementation of RTPS Standard (RTPS is the wire interoperability protocol for DDS) ![Fast-RTPS](https://img.shields.io/github/stars/eProsima/Fast-RTPS.svg)
-  - [OpenSplice](https://github.com/ADLINK-IST/opensplice) - Implementation of the OMG DDS Standard ![opensplice](https://img.shields.io/github/stars/ADLINK-IST/opensplice.svg) :heavy_dollar_sign:
-  - [CoreDX DDS](http://www.twinoakscomputing.com/coredx) - Implementation of Twin Oaks Computing, Inc. :heavy_dollar_sign:
+  - [OpenSplice](https://github.com/ADLINK-IST/opensplice) - Implementation of the OMG DDS Standard ![opensplice](https://img.shields.io/github/stars/ADLINK-IST/opensplice.svg)  **$**
+  - [CoreDX DDS](http://www.twinoakscomputing.com/coredx) - Implementation of Twin Oaks Computing, Inc.  **$**
   - [freertps](https://github.com/ros2/freertps) - A free, portable, minimalist, work-in-progress RTPS implementation. ![freertps](https://img.shields.io/github/stars/ros2/freertps.svg)
 
 _**Build system (Linux)**_
