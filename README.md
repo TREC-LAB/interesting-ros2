@@ -3,7 +3,7 @@
 
 ## Releases
 
-  - [ROS2 releases](https://github.com/ros2/ros2/releases)
+ - **[ROS2 releases](https://github.com/ros2/ros2/releases)**
   
 ## Documentation
 
