@@ -3,7 +3,64 @@
 
 ## Releases
 
-  - [Ros2 releases](https://github.com/ros2/ros2/releases)
+  - [ROS2 releases](https://github.com/ros2/ros2/releases)
+  
+## Presentations
+
+_**ROSCon 2018**_
+
+[program announcement](https://roscon.ros.org/2018/#program)
+
+- Hands-on ROS 2: A Walkthrough
+- ROS 2 on Autonomous Driving Vehicles
+- RViz – The tale of a migration to ROS 2.0
+- Launch for ROS 2
+- Getting involved in ROS 2 development
+- Planning to Plan: Plugins All The Way Down
+- Leveraging DDS Security in ROS2
+- Arm DDS Security library: Adding secure security to ROS2
+- ROS2: Supercharging the Jaguar4x4
+- Performance Test - A Tool for Communication Middleware Performance Measuring
+- ROS2 for Android, iOS and Universal Windows Platform: a demonstration of ROS2’s portability, and cross-platform and cross-language capabilities
+- Integrating ROS and ROS2 on mixed-critical robotic systems based on embedded heterogeneous platforms
+- Towards ROS 2 microcontroller meta cross-compilation
+- Node.js Client & Web Bridge Ready for ROS 2.0
+- RCLAda: the Ada client library for ROS2
+
+_**Embedded World Conference 2018**_
+
+- ADLink Neuron: An industrial oriented ROS2-based platform [Slides](https://raw.githubusercontent.com/Adlink-ROS/adlink_neuronbot/master/document/ADLINK_NeuronBot_20180313.pdf) [Video](https://www.youtube.com/watch?v=RC6XvTvTs9Y&feature=youtu.be) [Video](https://www.youtube.com/watch?v=qA4_Hmnd_tM&feature=youtu.be)
+
+_**2018**_
+
+- ROS2 - The Robot Operating System Version 2 (TNG Technology Consulting GmbH) [Slides](https://www.tngtech.com/fileadmin/Public/Images/BigTechday/BTD11/Folien/ROS2.pdf) [Video](https://www.youtube.com/watch?v=6Vzi0Grrlp8)
+
+_**ROS Industrial Conference 2017**_
+
+- micro Robot Operating System: ROS for highly resource-constrained devices [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/5a3bb6d524a6947d9d0cbc68/1513862873907/07_Losa.pdf)
+- ROS2 - it's coming [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/5a3bb787e4966b606fe227d7/1513863070599/11_Thomas.pdf)
+
+_**ROSCon 2017**_
+
+- The ROS 2 vision for advancing the future of robotics development [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Vision.pdf) [Video](https://vimeo.com/236161417)
+- ROS2 Fine Tuning [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Fine%20Tuning.pdf) [Video](https://vimeo.com/236168591)
+- SLAM on Turtlebot2 using ROS2 [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20SLAM.pdf) [Video](https://vimeo.com/236172294)
+- Using ROS2 for Vision-Based Manipulation with Industrial Robots [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Vision-Based%20Manipulation.pdf) [Video](https://vimeo.com/236182180)
+
+_**ROS Industrial Conference 2016**_
+
+- ROS 2.0 AND OPC UA: A STATUS UPDATE [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/58235f2eb8a79be587899891/1478713139775/ROS-I-Conf2016-day1-09-keinert.pdf)
+
+_**ROSCon 2016**_
+
+- ROS 2 Update [Slides](https://roscon.ros.org/2016/presentations/ROSCon%202016%20-%20ROS%202%20Update.pdf) [Video](https://vimeo.com/187696091)
+- Evaluating the resilience of ROS2 communication layer [Slides](https://roscon.ros.org/2016/presentations/rafal.kozik-ros2evaluation.pdf) [Video](https://vimeo.com/187705229)
+
+_**ROSCon 2015**_
+
+- ROS 2 on “small” embedded systems [Slides](https://roscon.ros.org/2015/presentations/ros2_on_small_embedded_systems.pdf) [Video](https://vimeo.com/142150576)
+- State of ROS 2 - demos and the technology behind [Slides](https://roscon.ros.org/2015/presentations/state-of-ros2.pdf) [Video](https://vimeo.com/142151734)
+- Real-time Performance in ROS 2 [Slides](https://roscon.ros.org/2015/presentations/RealtimeROS2.pdf) [Video](https://vimeo.com/142621778)
 
 ## Packages
 
@@ -164,63 +221,6 @@ _**Build system (ROS2)**_
 ## Courses
 
 - [ROS2 How To: Discover Next Generation ROS (Udemy)](https://www.udemy.com/ros2-how-to/)
-
-## Presentations
-
-_**ROSCon 2018**_
-
-[program announcement](https://roscon.ros.org/2018/#program)
-
-- Hands-on ROS 2: A Walkthrough
-- ROS 2 on Autonomous Driving Vehicles
-- RViz – The tale of a migration to ROS 2.0
-- Launch for ROS 2
-- Getting involved in ROS 2 development
-- Planning to Plan: Plugins All The Way Down
-- Leveraging DDS Security in ROS2
-- Arm DDS Security library: Adding secure security to ROS2
-- ROS2: Supercharging the Jaguar4x4
-- Performance Test - A Tool for Communication Middleware Performance Measuring
-- ROS2 for Android, iOS and Universal Windows Platform: a demonstration of ROS2’s portability, and cross-platform and cross-language capabilities
-- Integrating ROS and ROS2 on mixed-critical robotic systems based on embedded heterogeneous platforms
-- Towards ROS 2 microcontroller meta cross-compilation
-- Node.js Client & Web Bridge Ready for ROS 2.0
-- RCLAda: the Ada client library for ROS2
-
-_**Embedded World Conference 2018**_
-
-- ADLink Neuron: An industrial oriented ROS2-based platform [Slides](https://raw.githubusercontent.com/Adlink-ROS/adlink_neuronbot/master/document/ADLINK_NeuronBot_20180313.pdf) [Video](https://www.youtube.com/watch?v=RC6XvTvTs9Y&feature=youtu.be) [Video](https://www.youtube.com/watch?v=qA4_Hmnd_tM&feature=youtu.be)
-
-_**2018**_
-
-- ROS2 - The Robot Operating System Version 2 (TNG Technology Consulting GmbH) [Slides](https://www.tngtech.com/fileadmin/Public/Images/BigTechday/BTD11/Folien/ROS2.pdf) [Video](https://www.youtube.com/watch?v=6Vzi0Grrlp8)
-
-_**ROS Industrial Conference 2017**_
-
-- micro Robot Operating System: ROS for highly resource-constrained devices [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/5a3bb6d524a6947d9d0cbc68/1513862873907/07_Losa.pdf)
-- ROS2 - it's coming [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/5a3bb787e4966b606fe227d7/1513863070599/11_Thomas.pdf)
-
-_**ROSCon 2017**_
-
-- The ROS 2 vision for advancing the future of robotics development [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Vision.pdf) [Video](https://vimeo.com/236161417)
-- ROS2 Fine Tuning [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Fine%20Tuning.pdf) [Video](https://vimeo.com/236168591)
-- SLAM on Turtlebot2 using ROS2 [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20SLAM.pdf) [Video](https://vimeo.com/236172294)
-- Using ROS2 for Vision-Based Manipulation with Industrial Robots [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Vision-Based%20Manipulation.pdf) [Video](https://vimeo.com/236182180)
-
-_**ROS Industrial Conference 2016**_
-
-- ROS 2.0 AND OPC UA: A STATUS UPDATE [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/58235f2eb8a79be587899891/1478713139775/ROS-I-Conf2016-day1-09-keinert.pdf)
-
-_**ROSCon 2016**_
-
-- ROS 2 Update [Slides](https://roscon.ros.org/2016/presentations/ROSCon%202016%20-%20ROS%202%20Update.pdf) [Video](https://vimeo.com/187696091)
-- Evaluating the resilience of ROS2 communication layer [Slides](https://roscon.ros.org/2016/presentations/rafal.kozik-ros2evaluation.pdf) [Video](https://vimeo.com/187705229)
-
-_**ROSCon 2015**_
-
-- ROS 2 on “small” embedded systems [Slides](https://roscon.ros.org/2015/presentations/ros2_on_small_embedded_systems.pdf) [Video](https://vimeo.com/142150576)
-- State of ROS 2 - demos and the technology behind [Slides](https://roscon.ros.org/2015/presentations/state-of-ros2.pdf) [Video](https://vimeo.com/142151734)
-- Real-time Performance in ROS 2 [Slides](https://roscon.ros.org/2015/presentations/RealtimeROS2.pdf) [Video](https://vimeo.com/142621778)
 
 ## Papers
 
