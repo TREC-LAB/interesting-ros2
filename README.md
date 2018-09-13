@@ -5,6 +5,25 @@
 
   - [ROS2 releases](https://github.com/ros2/ros2/releases)
   
+## Documentation
+
+- [ROS2 Design](http://design.ros2.org/) - Articles which inform and guide the ROS 2.0 design efforts.
+- [ROS2 Docs (Overview)](http://docs.ros2.org/beta2/index.html#) - Details about ROS 2 internal design and organisation.
+- [ROS2 Tutorials](https://github.com/ros2/ros2/wiki/Tutorials) - Study about ROS2 concept, libraries, build, and development with demoes/examples.
+- [ROS2 Tutorials from Erle Robotics](http://docs.erlerobotics.com/robot_operating_system/ros2) - More structured, yet using ardent (Not suggested)
+- [ROS2 wiki Home](https://github.com/ros2/ros2/wiki) - Entry point to find all kind of information about ROS 2.
+- [ROS2 Distribution (rosdistro)](https://github.com/ros2/rosdistro) - Info about distributions and the included packages.
+- [ROS2 package status (bouncy)](http://repo.ros2.org/status_page/ros_bouncy_default.html) - Status of ROS2 bouncy packages.
+- [ROS2 Buildfarm](http://build.ros2.org) - Build information (Jenkins build farm).
+
+## Books
+
+**No books published yet** :(
+
+## Courses
+
+- [ROS2 How To: Discover Next Generation ROS (Udemy)](https://www.udemy.com/ros2-how-to/) :heavy_dollar_sign:
+  
 ## Presentations
 
 _**ROSCon 2018**_
@@ -195,17 +214,6 @@ _**Build system (ROS2)**_
  - [NuttX](https://github.com/microROS/NuttX) - NuttX fork of the official one for use with micro-ROS.
  - [RIOT](https://github.com/RIOT-OS/RIOT) - RIOT is a real-time multi-threading operating system (...,) real-time capabilities, small memory footprint, (...) API offers partial POSIX compliance.
 
-## Documentation
-
-- [ROS2 Design](http://design.ros2.org/) - Articles which inform and guide the ROS 2.0 design efforts.
-- [ROS2 Docs (Overview)](http://docs.ros2.org/beta2/index.html#) - Details about ROS 2 internal design and organisation.
-- [ROS2 Tutorials](https://github.com/ros2/ros2/wiki/Tutorials) - Study about ROS2 concept, libraries, build, and development with demoes/examples.
-- [ROS2 Tutorials from Erle Robotics](http://docs.erlerobotics.com/robot_operating_system/ros2) - Study about ROS2 concept, libraries, build, and development with demoes/examples.
-- [ROS2 Wiki](https://github.com/ros2/ros2/wiki) - Entry point to find all kind of information about ROS 2.
-- [ROS2 Distribution (rosdistro)](https://github.com/ros2/rosdistro) - Info about distributions and the included packages.
-- [ROS2 package status (bouncy)](http://repo.ros2.org/status_page/ros_bouncy_default.html) - Status of ROS2 bouncy packages.
-- [ROS2 Buildfarm](http://build.ros2.org) - Build information (Jenkins build farm).
-
 ## Community
 
 - [ROS Discourse](https://discourse.ros.org/c/ng-ros)
@@ -214,13 +222,6 @@ _**Build system (ROS2)**_
 - [ROS Planet](http://planet.ros.org/)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/ros2)
 
-## Books
-
-**No books published yet** :(
-
-## Courses
-
-- [ROS2 How To: Discover Next Generation ROS (Udemy)](https://www.udemy.com/ros2-how-to/)
 
 ## Papers
 
