@@ -1,5 +1,5 @@
 
-> A curated list of awesome Robot Operating System Version 2.0 (ROS 2) resources and libraries.
+> A curated list of awesome Robot Operating System Version 2.0 (ROS 2) resources and libraries. I have highlighted what are highly recommended for you :-).
 
 ## Releases
 
@@ -83,6 +83,65 @@ _**ROSCon 2015**_
 
 ## Packages
 
+_**Client libraries**_
+
+  - [rclada](https://github.com/ada-ros/rclada) - ROS Client Library for Ada. ![rclada](https://img.shields.io/github/stars/ada-ros/rclada.svg)
+  - [rclcpp](https://github.com/ros2/rclcpp) - ROS Client Library for C++. ![rclcpp](https://img.shields.io/github/stars/ros2/rclcpp.svg)
+  - [rclpy](https://github.com/ros2/rclpy) - ROS Client Library for Python. ![rclpy](https://img.shields.io/github/stars/ros2/rclpy.svg)
+  - [rcljava](https://github.com/esteve/ros2_java/tree/master/rcljava) - ROS Client Library for Java. ![rcljava](https://img.shields.io/github/stars/esteve/ros2_java.svg)
+  - [rclnodejs](https://github.com/RobotWebTools/rclnodejs) - ROS Client Library for Node.js ![rclnodejs](https://img.shields.io/github/stars/RobotWebTools/rclnodejs.svg)
+  - [rclobjc](https://github.com/esteve/ros2_objc) - ROS Client Library for Objective C (for iOS). ![rclobjc](https://img.shields.io/github/stars/esteve/ros2_objc.svg)
+  - [rclc](https://github.com/ros2/rclc) - ROS Client Library for C. ![rclc](https://img.shields.io/github/stars/ros2/rclc.svg)
+  - [ros2_rust](https://github.com/esteve/ros2_rust) - Rust bindings for ROS2 ![ros2_rust](https://img.shields.io/github/stars/esteve/ros2_rust.svg)
+  - [ros2_dotnet](https://github.com/esteve/ros2_dotnet) - .NET bindings for ROS2 ![ros2_dotnet](https://img.shields.io/github/stars/esteve/ros2_dotnet.svg)
+
+_**Client libraries common**_
+
+  - [rcl](https://github.com/ros2/rcl) - Library to support implementation of language specific ROS Client Libraries. ![rcl](https://img.shields.io/github/stars/ros2/rcl.svg)
+  - [system_tests](https://github.com/ros2/system_tests) - Tests for rclcpp and rclpy. ![system_tests](https://img.shields.io/github/stars/ros2/system_tests.svg)
+  - [rcl_interfaces](https://github.com/ros2/rcl_interfaces) - A repository for messages and services used by the ROS client libraries. ![rcl_interfaces](https://img.shields.io/github/stars/ros2/rcl_interfaces.svg)
+
+_**IDL generators**_
+
+  - [rosidl_generator_java](https://github.com/esteve/ros2_java/tree/master/rosidl_generator_java) - Generate the ROS interfaces in Java. ![ros2_java](https://img.shields.io/github/stars/esteve/ros2_java.svg)
+  - [rosidl_generator_objc](https://github.com/esteve/ros2_objc/tree/master/rosidl_generator_objc) - Generate the ROS interfaces in Objective C. ![ros2_objc](https://img.shields.io/github/stars/esteve/ros2_objc.svg)
+  - [rosidl_generator_cpp](https://github.com/ros2/rosidl/tree/master/rosidl_generator_cpp) - Generate the ROS interfaces in C++. ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg)
+  - [rosidl_generator_py](https://github.com/ros2/rosidl/tree/master/rosidl_generator_py) - Generate the ROS interfaces in Python. ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg)
+  - [rosidl_generator_c](https://github.com/ros2/rosidl/tree/master/rosidl_generator_c) - Generate the ROS interfaces in C. ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg)
+  - [rosidl](https://github.com/ros2/rosidl) - Packages which provide the ROS IDL (.msg) definition and code generation. ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg)
+  - [rosidl_dds](https://github.com/ros2/rosidl_dds) - Generate the DDS interfaces for ROS interfaces. ![rosidl_dds](https://img.shields.io/github/stars/ros2/rosidl_dds.svg)
+
+_**RMW (ROS middleware)**_
+
+  - [rmw](https://github.com/ros2/rmw/tree/master/rmw) - Contains the ROS middleware API. ![rmw](https://img.shields.io/github/stars/ros2/rmw.svg)
+  - [rmw_connext_cpp](https://github.com/ros2/rmw_connext/tree/master/rmw_connext_cpp) - Implement the ROS middleware interface using RTI Connext static code generation in C++. ![rmw_connext_cpp](https://img.shields.io/github/stars/ros2/rmw_connext.svg)
+  - [rmw_fastrtps_cpp](https://github.com/ros2/rmw_fastrtps/tree/master/rmw_fastrtps_cpp) - Implement the ROS middleware interface using eProsima FastRTPS static code generation in C++. ![rmw_fastrtps_cpp](https://img.shields.io/github/stars/ros2/rmw_fastrtps.svg)
+  - [rmw_dps](https://github.com/ros2/rmw_dps) - Implementation of the ROS Middleware (rmw) Interface using Intel's Distributed Publish & Subscribe. ![rmw_dps](https://img.shields.io/github/stars/ros2/rmw_dps.svg)
+  - [rmw_opensplice_cpp](https://github.com/ros2/rmw_opensplice/tree/master/rmw_opensplice_cpp) - Implement the ROS middleware interface using PrismTech OpenSplice static code generation in C++. ![rmw_opensplice_cpp](https://img.shields.io/github/stars/ros2/rmw_opensplice.svg)
+  - [rmw_coredx](https://github.com/tocinc/rmw_coredx) - CoreDX DDS integration layer for ROS2 ![tocinc/rmw_coredx](https://img.shields.io/github/stars/tocinc/rmw_coredx.svg)
+  - [rmw_freertps](https://github.com/ros2/rmw_freertps) - RMW implementation using freertps. ![tocinc/rmw_coredx](https://img.shields.io/github/stars/ros2/rmw_freertps.svg)
+  - [rcutils](https://github.com/ros2/rcutils) - Common C functions and data structures used in ROS 2 ![rmw](https://img.shields.io/github/stars/ros2/rcutils.svg)
+  - [freertps](https://github.com/ros2/freertps) - a free, portable, minimalist, work-in-progress RTPS implementation ![rmw](https://img.shields.io/github/stars/ros2/freertps.svg)
+
+_**DDS communication mechanism implementations**_
+
+  - [Connext DDS](https://www.rti.com/products/dds) - Connectivity Software for Developing and Integrating IIoT Systems  **$**
+  - [Fast-RTPS](https://github.com/eProsima/Fast-RTPS) - Implementation of RTPS Standard (RTPS is the wire interoperability protocol for DDS) ![Fast-RTPS](https://img.shields.io/github/stars/eProsima/Fast-RTPS.svg)
+  - [OpenSplice](https://github.com/ADLINK-IST/opensplice) - Implementation of the OMG DDS Standard ![opensplice](https://img.shields.io/github/stars/ADLINK-IST/opensplice.svg)  **$**
+  - [CoreDX DDS](http://www.twinoakscomputing.com/coredx) - Implementation of Twin Oaks Computing, Inc.  **$**
+  - [freertps](https://github.com/ros2/freertps) - A free, portable, minimalist, work-in-progress RTPS implementation. ![freertps](https://img.shields.io/github/stars/ros2/freertps.svg)
+
+_**Build system (Linux)**_
+
+  - [meta-ros2](https://github.com/erlerobot/meta-ros2) - ROS 2 Layer for OpenEmbedded Linux ![meta-ros2](https://img.shields.io/github/stars/erlerobot/meta-ros2.svg)
+
+_**Build system (ROS2)**_
+
+  - [ci](https://github.com/ros2/ci) - ROS 2 CI Infrastructure ![ci](https://img.shields.io/github/stars/ros2/ci.svg)
+  - [ament_cmake_export_jars](https://github.com/esteve/ros2_java/tree/master/ament_cmake_export_jars) - The ability to export Java archives to downstream packages in the ament buildsystem in CMake. ![ros2_java](https://img.shields.io/github/stars/esteve/ros2_java.svg)
+  - [rmw_implementation_cmake](https://github.com/ros2/rmw/tree/master/rmw_implementation_cmake) - CMake functions which can discover and enumerate available implementations. ![rmw](https://img.shields.io/github/stars/ros2/rmw.svg)
+  - [rmw_implementation](https://github.com/ros2/rmw_implementation) - CMake infrastructure and dependencies for rmw implementations ![rmw](https://img.shields.io/github/stars/ros2/rmw_implementation.svg)
+
 _**Demostrations**_
 
   - [adlink_ddsbot](https://github.com/Adlink-ROS/adlink_ddsbot) - The ROS 2.0/1.0 based robots swarm architecture (opensplice DDS). ![adlink_ddsbot](https://img.shields.io/github/stars/Adlink-ROS/adlink_ddsbot.svg)
@@ -150,64 +209,6 @@ _**Driver layer**_
   - [raspicam2_node](https://github.com/christianrauch/raspicam2_node) - ROS2 node for camera module of Raspberry Pi. ![raspicam2_node](https://img.shields.io/github/stars/christianrauch/raspicam2_node.svg)
  - [HRIM](https://github.com/erlerobot/HRIM) - A standard interface for robot modules.
 
-_**Client libraries**_
-
-  - [rclada](https://github.com/ada-ros/rclada) - ROS Client Library for Ada. ![rclada](https://img.shields.io/github/stars/ada-ros/rclada.svg)
-  - [rclcpp](https://github.com/ros2/rclcpp) - ROS Client Library for C++. ![rclcpp](https://img.shields.io/github/stars/ros2/rclcpp.svg)
-  - [rclpy](https://github.com/ros2/rclpy) - ROS Client Library for Python. ![rclpy](https://img.shields.io/github/stars/ros2/rclpy.svg)
-  - [rcljava](https://github.com/esteve/ros2_java/tree/master/rcljava) - ROS Client Library for Java. ![rcljava](https://img.shields.io/github/stars/esteve/ros2_java.svg)
-  - [rclnodejs](https://github.com/RobotWebTools/rclnodejs) - ROS Client Library for Node.js ![rclnodejs](https://img.shields.io/github/stars/RobotWebTools/rclnodejs.svg)
-  - [rclobjc](https://github.com/esteve/ros2_objc) - ROS Client Library for Objective C (for iOS). ![rclobjc](https://img.shields.io/github/stars/esteve/ros2_objc.svg)
-  - [rclc](https://github.com/ros2/rclc) - ROS Client Library for C. ![rclc](https://img.shields.io/github/stars/ros2/rclc.svg)
-  - [ros2_rust](https://github.com/esteve/ros2_rust) - Rust bindings for ROS2 ![ros2_rust](https://img.shields.io/github/stars/esteve/ros2_rust.svg)
-  - [ros2_dotnet](https://github.com/esteve/ros2_dotnet) - .NET bindings for ROS2 ![ros2_dotnet](https://img.shields.io/github/stars/esteve/ros2_dotnet.svg)
-
-_**Client libraries common**_
-
-  - [rcl](https://github.com/ros2/rcl) - Library to support implementation of language specific ROS Client Libraries. ![rcl](https://img.shields.io/github/stars/ros2/rcl.svg)
-  - [system_tests](https://github.com/ros2/system_tests) - Tests for rclcpp and rclpy. ![system_tests](https://img.shields.io/github/stars/ros2/system_tests.svg)
-  - [rcl_interfaces](https://github.com/ros2/rcl_interfaces) - A repository for messages and services used by the ROS client libraries. ![rcl_interfaces](https://img.shields.io/github/stars/ros2/rcl_interfaces.svg)
-
-_**IDL generators**_
-
-  - [rosidl_generator_java](https://github.com/esteve/ros2_java/tree/master/rosidl_generator_java) - Generate the ROS interfaces in Java. ![ros2_java](https://img.shields.io/github/stars/esteve/ros2_java.svg)
-  - [rosidl_generator_objc](https://github.com/esteve/ros2_objc/tree/master/rosidl_generator_objc) - Generate the ROS interfaces in Objective C. ![ros2_objc](https://img.shields.io/github/stars/esteve/ros2_objc.svg)
-  - [rosidl_generator_cpp](https://github.com/ros2/rosidl/tree/master/rosidl_generator_cpp) - Generate the ROS interfaces in C++. ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg)
-  - [rosidl_generator_py](https://github.com/ros2/rosidl/tree/master/rosidl_generator_py) - Generate the ROS interfaces in Python. ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg)
-  - [rosidl_generator_c](https://github.com/ros2/rosidl/tree/master/rosidl_generator_c) - Generate the ROS interfaces in C. ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg)
-  - [rosidl](https://github.com/ros2/rosidl) - Packages which provide the ROS IDL (.msg) definition and code generation. ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg)
-  - [rosidl_dds](https://github.com/ros2/rosidl_dds) - Generate the DDS interfaces for ROS interfaces. ![rosidl_dds](https://img.shields.io/github/stars/ros2/rosidl_dds.svg)
-
-_**RMW (ROS middleware)**_
-
-  - [rmw](https://github.com/ros2/rmw/tree/master/rmw) - Contains the ROS middleware API. ![rmw](https://img.shields.io/github/stars/ros2/rmw.svg)
-  - [rmw_connext_cpp](https://github.com/ros2/rmw_connext/tree/master/rmw_connext_cpp) - Implement the ROS middleware interface using RTI Connext static code generation in C++. ![rmw_connext_cpp](https://img.shields.io/github/stars/ros2/rmw_connext.svg)
-  - [rmw_fastrtps_cpp](https://github.com/ros2/rmw_fastrtps/tree/master/rmw_fastrtps_cpp) - Implement the ROS middleware interface using eProsima FastRTPS static code generation in C++. ![rmw_fastrtps_cpp](https://img.shields.io/github/stars/ros2/rmw_fastrtps.svg)
-  - [rmw_dps](https://github.com/ros2/rmw_dps) - Implementation of the ROS Middleware (rmw) Interface using Intel's Distributed Publish & Subscribe. ![rmw_dps](https://img.shields.io/github/stars/ros2/rmw_dps.svg)
-  - [rmw_opensplice_cpp](https://github.com/ros2/rmw_opensplice/tree/master/rmw_opensplice_cpp) - Implement the ROS middleware interface using PrismTech OpenSplice static code generation in C++. ![rmw_opensplice_cpp](https://img.shields.io/github/stars/ros2/rmw_opensplice.svg)
-  - [rmw_coredx](https://github.com/tocinc/rmw_coredx) - CoreDX DDS integration layer for ROS2 ![tocinc/rmw_coredx](https://img.shields.io/github/stars/tocinc/rmw_coredx.svg)
-  - [rmw_freertps](https://github.com/ros2/rmw_freertps) - RMW implementation using freertps. ![tocinc/rmw_coredx](https://img.shields.io/github/stars/ros2/rmw_freertps.svg)
-  - [rcutils](https://github.com/ros2/rcutils) - Common C functions and data structures used in ROS 2 ![rmw](https://img.shields.io/github/stars/ros2/rcutils.svg)
-  - [freertps](https://github.com/ros2/freertps) - a free, portable, minimalist, work-in-progress RTPS implementation ![rmw](https://img.shields.io/github/stars/ros2/freertps.svg)
-
-_**DDS communication mechanism implementations**_
-
-  - [Connext DDS](https://www.rti.com/products/dds) - Connectivity Software for Developing and Integrating IIoT Systems  **$**
-  - [Fast-RTPS](https://github.com/eProsima/Fast-RTPS) - Implementation of RTPS Standard (RTPS is the wire interoperability protocol for DDS) ![Fast-RTPS](https://img.shields.io/github/stars/eProsima/Fast-RTPS.svg)
-  - [OpenSplice](https://github.com/ADLINK-IST/opensplice) - Implementation of the OMG DDS Standard ![opensplice](https://img.shields.io/github/stars/ADLINK-IST/opensplice.svg)  **$**
-  - [CoreDX DDS](http://www.twinoakscomputing.com/coredx) - Implementation of Twin Oaks Computing, Inc.  **$**
-  - [freertps](https://github.com/ros2/freertps) - A free, portable, minimalist, work-in-progress RTPS implementation. ![freertps](https://img.shields.io/github/stars/ros2/freertps.svg)
-
-_**Build system (Linux)**_
-
-  - [meta-ros2](https://github.com/erlerobot/meta-ros2) - ROS 2 Layer for OpenEmbedded Linux ![meta-ros2](https://img.shields.io/github/stars/erlerobot/meta-ros2.svg)
-
-_**Build system (ROS2)**_
-
-  - [ci](https://github.com/ros2/ci) - ROS 2 CI Infrastructure ![ci](https://img.shields.io/github/stars/ros2/ci.svg)
-  - [ament_cmake_export_jars](https://github.com/esteve/ros2_java/tree/master/ament_cmake_export_jars) - The ability to export Java archives to downstream packages in the ament buildsystem in CMake. ![ros2_java](https://img.shields.io/github/stars/esteve/ros2_java.svg)
-  - [rmw_implementation_cmake](https://github.com/ros2/rmw/tree/master/rmw_implementation_cmake) - CMake functions which can discover and enumerate available implementations. ![rmw](https://img.shields.io/github/stars/ros2/rmw.svg)
-  - [rmw_implementation](https://github.com/ros2/rmw_implementation) - CMake infrastructure and dependencies for rmw implementations ![rmw](https://img.shields.io/github/stars/ros2/rmw_implementation.svg)
 
 ## Operating systems
 
