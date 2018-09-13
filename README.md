@@ -1,14 +1,13 @@
-# Awesome Robot Operating System 2 (ROS 2) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Robot Operating System 2 (ROS 2) 
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Build Status](https://api.travis-ci.org/fkromer/awesome-ros2.svg)](https://travis-ci.org/fkromer/awesome-ros2)
 
-[<img src="https://raw.githubusercontent.com/fkromer/awesome-ros2/master/ros_logo.svg?sanitize=true" align="right" width="86">](https://github.com/ros2/ros2/wiki)
 
 > A curated list of awesome Robot Operating System Version 2.0 (ROS 2) resources and libraries.
 
 ## Contents
 
+- [Releases](#releases)
 - [Packages](#packages)
 - [Operating systems](#operating-systems)
 - [Documentation](#documentation)
@@ -18,6 +17,9 @@
 - [Presentations](#presentations)
 - [Papers](#papers)
 - [Podcasts](#podcasts)
+
+## Releases
+[ros2 releases](https://github.com/ros2/ros2/releases)
 
 ## Packages
 
