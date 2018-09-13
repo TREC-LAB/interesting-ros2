@@ -19,7 +19,7 @@
 - [Podcasts](#podcasts)
 
 ## Releases
-[ros2 releases](https://github.com/ros2/ros2/releases)
+  - [ros2 releases](https://github.com/ros2/ros2/releases)
 
 ## Packages
 
@@ -156,11 +156,12 @@
 
 ## Documentation
 
-- [ROS 2 Design](http://design.ros2.org/) - Articles which inform and guide the ROS 2.0 design efforts.
-- [ROS 2 Docs (Overview)](http://docs.ros2.org/beta2/index.html#) - Details about ROS 2 internal design and organisation.
-- [ROS 2 Tutorials](https://github.com/ros2/ros2/wiki/Tutorials) - Study about ROS2 concept, libraries, build, and development with demoes/examples.
-- [ROS 2 Wiki](https://github.com/ros2/ros2/wiki) - Entry point to find all kind of information about ROS 2.
-- [ROS 2 Distribution (rosdistro)](https://github.com/ros2/rosdistro) - Info about distributions and the included packages.
+- [ROS2 Design](http://design.ros2.org/) - Articles which inform and guide the ROS 2.0 design efforts.
+- [ROS2 Docs (Overview)](http://docs.ros2.org/beta2/index.html#) - Details about ROS 2 internal design and organisation.
+- [ROS2 Tutorials](https://github.com/ros2/ros2/wiki/Tutorials) - Study about ROS2 concept, libraries, build, and development with demoes/examples.
+- [ROS2 Tutorials from Erle Robotics](http://docs.erlerobotics.com/robot_operating_system/ros2) - Study about ROS2 concept, libraries, build, and development with demoes/examples.
+- [ROS2 Wiki](https://github.com/ros2/ros2/wiki) - Entry point to find all kind of information about ROS 2.
+- [ROS2 Distribution (rosdistro)](https://github.com/ros2/rosdistro) - Info about distributions and the included packages.
 - [ROS2 package status (bouncy)](http://repo.ros2.org/status_page/ros_bouncy_default.html) - Status of ROS2 bouncy packages.
 - [ROS2 Buildfarm](http://build.ros2.org) - Build information (Jenkins build farm).
 
@@ -174,7 +175,7 @@
 
 ## Books
 
-**No books published yet**
+**No books published yet** :(
 
 ## Courses
 
@@ -241,8 +242,8 @@
 
 - [Towards a distributed and real-time framework for robots: Evaluation of ROS 2.0 communications for real-time robotic applications](https://arxiv.org/pdf/1809.02595.pdf)
 - [An information model for modular robots: the Hardware Robot Information Model (HRIM)](https://arxiv.org/pdf/1802.01459.pdf)
-- [INTRODUCING THE Robot Security Framework (RSF), A STANDARDIZED METHODOLOGY TO PERFORM SECURITY ASSESSMENTS IN ROBOTICS](https://arxiv.org/pdf/1806.04042.pdf)
-- [TOWARDS AN OPEN STANDARD FOR ASSESSING THE SEVERITY OF ROBOT SECURITY VULNERABILITIES, THE ROBOT VULNERABILITY SCORING SYSTEM (RVSS)](https://arxiv.org/pdf/1807.10357.pdf)
+- [Introducing The Robot Security Framework (RSF), A Standardized Methodology To Perform Security Assessments In Robotics](https://arxiv.org/pdf/1806.04042.pdf)
+- [Towards An Open Standard For Assessing The Severity Of Robot Security Vulnerabilities, The Robot Vulnerability Scoring System (RVSS)](https://arxiv.org/pdf/1807.10357.pdf)
 - [Robot Operating System 2 - The need for a holistic security approach to robotic architectures](http://journals.sagepub.com/doi/pdf/10.1177/1729881418770011) - Ubuntu 16.04, ROS 2 Beta 2/3, and RTI 5.3 DDS with
 DDS Security.
 - [Maruyama, Yuya et al. “Exploring the performance of ROS2.” 2016 International Conference on Embedded Software (EMSOFT) (2016): 1-10.](https://www.semanticscholar.org/paper/Exploring-the-performance-of-ROS2-Maruyama-Kato/07b895f3b584dea4f64e91844f243de382026b20)
