@@ -88,9 +88,9 @@ _**ROSCon 2015**_
 _**Client libraries**_
 
   - [rclada](https://github.com/ada-ros/rclada) - ROS Client Library for Ada. ![rclada](https://img.shields.io/github/stars/ada-ros/rclada.svg)
-  - [rclcpp](https://github.com/ros2/rclcpp) - ROS Client Library for C++. ![rclcpp](https://img.shields.io/github/stars/ros2/rclcpp.svg) ***
+  - [rclcpp](https://github.com/ros2/rclcpp) - ROS Client Library for C++. ![rclcpp](https://img.shields.io/github/stars/ros2/rclcpp.svg)
   - [rclpy](https://github.com/ros2/rclpy) - ROS Client Library for Python. ![rclpy](https://img.shields.io/github/stars/ros2/rclpy.svg)
-  - [rcljava](https://github.com/esteve/ros2_java/tree/master/rcljava) - ROS Client Library for Java. ![rcljava](https://img.shields.io/github/stars/esteve/ros2_java.svg) ***
+  - [rcljava](https://github.com/esteve/ros2_java/tree/master/rcljava) - ROS Client Library for Java. ![rcljava](https://img.shields.io/github/stars/esteve/ros2_java.svg)
   - [rclnodejs](https://github.com/RobotWebTools/rclnodejs) - ROS Client Library for Node.js ![rclnodejs](https://img.shields.io/github/stars/RobotWebTools/rclnodejs.svg)
   - [rclobjc](https://github.com/esteve/ros2_objc) - ROS Client Library for Objective C (for iOS). ![rclobjc](https://img.shields.io/github/stars/esteve/ros2_objc.svg)
   - [rclc](https://github.com/ros2/rclc) - ROS Client Library for C. ![rclc](https://img.shields.io/github/stars/ros2/rclc.svg)
@@ -99,7 +99,7 @@ _**Client libraries**_
 
 _**Client libraries common**_
 
-  - [rcl](https://github.com/ros2/rcl) - Library to support implementation of language specific ROS Client Libraries. ![rcl](https://img.shields.io/github/stars/ros2/rcl.svg) ***
+  - [rcl](https://github.com/ros2/rcl) - Library to support implementation of language specific ROS Client Libraries. ![rcl](https://img.shields.io/github/stars/ros2/rcl.svg)
   - [system_tests](https://github.com/ros2/system_tests) - Tests for rclcpp and rclpy. ![system_tests](https://img.shields.io/github/stars/ros2/system_tests.svg)
   - [rcl_interfaces](https://github.com/ros2/rcl_interfaces) - A repository for messages and services used by the ROS client libraries. ![rcl_interfaces](https://img.shields.io/github/stars/ros2/rcl_interfaces.svg)
 
