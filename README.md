@@ -18,7 +18,7 @@
 
 ## Books
 
-**No books published yet** :(
+- No books published yet :(
 
 ## Courses
 
