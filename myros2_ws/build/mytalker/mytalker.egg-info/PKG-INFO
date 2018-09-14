@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: mytalker
+Version: 0.5.1
+Summary: Examples of minimal publishers using rclpy.
+Home-page: UNKNOWN
+Author: Kaixian QU
+Author-email: qkx515@gmail.com
+Maintainer: Kaixian QU
+Maintainer-email: qkx515@gmail.com
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

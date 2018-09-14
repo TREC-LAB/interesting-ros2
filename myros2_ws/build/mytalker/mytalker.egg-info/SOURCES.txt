@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+talker.py
+mytalker.egg-info/PKG-INFO
+mytalker.egg-info/SOURCES.txt
+mytalker.egg-info/dependency_links.txt
+mytalker.egg-info/entry_points.txt
+mytalker.egg-info/requires.txt
+mytalker.egg-info/top_level.txt
+mytalker.egg-info/zip-safe
+resource/mytalker
