@@ -180,6 +180,8 @@ _**Ecosystem**_
 
 _**Application layer**_
 
+  - [ros2_control](https://github.com/ros-controls/ros2_control) - `ros2_control` is a proof of concept on how new features within ROS 2 can be elaborated and used in the context of robot control. (`ros2_controllers`) ![ros2_control](https://img.shields.io/github/stars/ros-controls/ros2_control.svg)
+  - [ros2_controllers](https://github.com/ros-controls/ros2_controllers) - Description of ros_controllers. ![ros2_controllers](https://img.shields.io/github/stars/ros-controls/ros2_controllers.svg)
   - [geometry2](https://github.com/ros2/geometry2) - A set of ROS packages for keeping track of coordinate transforms. ![geometry2](https://img.shields.io/github/stars/ros2/geometry2.svg)
   - [cartographer](https://github.com/ros2/cartographer) real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations ![cartographer](https://img.shields.io/github/stars/ros2/cartographer.svg)
   - [vision_opencv](https://github.com/ros-perception/vision_opencv/tree/ros2) - Packages for interfacing ROS2 with OpenCV ![vision_opencv](https://img.shields.io/github/stars/ros-perception/vision_opencv.svg)
