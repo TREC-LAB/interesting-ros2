@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000530] (mylistener) JobQueued: {'identifier': 'mylistener', 'dependencies': OrderedDict()}
+[0.000658] (mytalker) JobQueued: {'identifier': 'mytalker', 'dependencies': OrderedDict()}
+[0.000819] (mytalkercpp) JobQueued: {'identifier': 'mytalkercpp', 'dependencies': OrderedDict()}
+[0.000984] (examples_rclpy_minimal_publisher) JobStarted: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.011142] (mylistener) JobStarted: {'identifier': 'mylistener'}
+[0.017556] (mytalker) JobStarted: {'identifier': 'mytalker'}
+[0.024266] (mytalkercpp) JobStarted: {'identifier': 'mytalkercpp'}
+[0.098013] (-) TimerEvent: {}
+[0.198679] (-) TimerEvent: {}
+[0.298755] (examples_rclpy_minimal_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher', '--no-deps', 'install_data', '--install-dir', '/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher'], 'cwd': '/home/qkx515/myros2_ws/build/examples_rclpy_minimal_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qkx515', 'TEXTDOMAIN': 'im-config', 'OSPL_INFOFILE': '<stdout>', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2495', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/bouncy/opt/rviz_yaml_cpp_vendor/lib:/opt/ros/bouncy/opt/rviz_ogre_vendor/lib:/opt/ros/bouncy/lib/x86_64-linux-gnu:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/bouncy/lib', 'SHLVL': '1', 'OLDPWD': '/home/qkx515/myros2_ws/src/mytalkercpp', 'OSPL_URI': 'file:///opt/ros/bouncy/share/opensplice_cmake_module/config/ros_ospl.xml', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/qkx515', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop', 'OSPL_VERBOSITY': '2', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-5.3.1', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OSPL_TMPL_PATH': '/usr/etc/opensplice/idlpp', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2696', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'bouncy', 'LOGNAME': 'qkx515', 'GTK_IM_MODULE': 'ibus', 'DESKTOP_AUTOSTART_ID': '107587f527e4a4dce7153692607658200000000023700007', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'ROS_VERSION': '2', 'USERNAME': 'qkx515', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'OSPL_ERRORFILE': '<stderr>', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/bouncy/bin:/home/qkx515/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2370,unix/ubuntu:/tmp/.ICE-unix/2370', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'OSPL_HOME': '/usr', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/bouncy', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'TERMINATOR_UUID': 'urn:uuid:c2a4c6f2-6a81-4454-92bd-226cf8040527', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qkx515/myros2_ws/build/examples_rclpy_minimal_publisher', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.6/site-packages:/opt/ros/bouncy/lib/python3.6/site-packages', 'VTE_VERSION': '5202'}, 'shell': False}
+[0.303773] (-) TimerEvent: {}
+[0.404553] (-) TimerEvent: {}
+[0.505131] (-) TimerEvent: {}
+[0.605660] (-) TimerEvent: {}
+[0.634192] (mylistener) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/qkx515/myros2_ws/install/mylistener', '--no-deps', 'install_data', '--install-dir', '/home/qkx515/myros2_ws/install/mylistener'], 'cwd': '/home/qkx515/myros2_ws/build/mylistener', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qkx515', 'TEXTDOMAIN': 'im-config', 'OSPL_INFOFILE': '<stdout>', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2495', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/bouncy/opt/rviz_yaml_cpp_vendor/lib:/opt/ros/bouncy/opt/rviz_ogre_vendor/lib:/opt/ros/bouncy/lib/x86_64-linux-gnu:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/bouncy/lib', 'SHLVL': '1', 'OLDPWD': '/home/qkx515/myros2_ws/src/mytalkercpp', 'OSPL_URI': 'file:///opt/ros/bouncy/share/opensplice_cmake_module/config/ros_ospl.xml', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/qkx515', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop', 'OSPL_VERBOSITY': '2', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-5.3.1', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OSPL_TMPL_PATH': '/usr/etc/opensplice/idlpp', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2696', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'bouncy', 'LOGNAME': 'qkx515', 'GTK_IM_MODULE': 'ibus', 'DESKTOP_AUTOSTART_ID': '107587f527e4a4dce7153692607658200000000023700007', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'ROS_VERSION': '2', 'USERNAME': 'qkx515', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'OSPL_ERRORFILE': '<stderr>', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/bouncy/bin:/home/qkx515/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2370,unix/ubuntu:/tmp/.ICE-unix/2370', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'OSPL_HOME': '/usr', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/bouncy', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'TERMINATOR_UUID': 'urn:uuid:c2a4c6f2-6a81-4454-92bd-226cf8040527', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qkx515/myros2_ws/build/mylistener', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/qkx515/myros2_ws/install/mylistener/lib/python3.6/site-packages:/opt/ros/bouncy/lib/python3.6/site-packages', 'VTE_VERSION': '5202'}, 'shell': False}
+[0.705803] (-) TimerEvent: {}
+[0.806556] (-) TimerEvent: {}
+[0.907223] (-) TimerEvent: {}
+[1.007767] (-) TimerEvent: {}
+[1.049741] (mytalker) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/qkx515/myros2_ws/install/mytalker', '--no-deps', 'install_data', '--install-dir', '/home/qkx515/myros2_ws/install/mytalker'], 'cwd': '/home/qkx515/myros2_ws/build/mytalker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qkx515', 'TEXTDOMAIN': 'im-config', 'OSPL_INFOFILE': '<stdout>', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2495', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/bouncy/opt/rviz_yaml_cpp_vendor/lib:/opt/ros/bouncy/opt/rviz_ogre_vendor/lib:/opt/ros/bouncy/lib/x86_64-linux-gnu:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/bouncy/lib', 'SHLVL': '1', 'OLDPWD': '/home/qkx515/myros2_ws/src/mytalkercpp', 'OSPL_URI': 'file:///opt/ros/bouncy/share/opensplice_cmake_module/config/ros_ospl.xml', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/qkx515', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop', 'OSPL_VERBOSITY': '2', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-5.3.1', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OSPL_TMPL_PATH': '/usr/etc/opensplice/idlpp', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2696', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'bouncy', 'LOGNAME': 'qkx515', 'GTK_IM_MODULE': 'ibus', 'DESKTOP_AUTOSTART_ID': '107587f527e4a4dce7153692607658200000000023700007', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'ROS_VERSION': '2', 'USERNAME': 'qkx515', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'OSPL_ERRORFILE': '<stderr>', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/bouncy/bin:/home/qkx515/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2370,unix/ubuntu:/tmp/.ICE-unix/2370', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'OSPL_HOME': '/usr', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/bouncy', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'TERMINATOR_UUID': 'urn:uuid:c2a4c6f2-6a81-4454-92bd-226cf8040527', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qkx515/myros2_ws/build/mytalker', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/qkx515/myros2_ws/install/mytalker/lib/python3.6/site-packages:/opt/ros/bouncy/lib/python3.6/site-packages', 'VTE_VERSION': '5202'}, 'shell': False}
+[1.059197] (mytalkercpp) JobProgress: {'identifier': 'mytalkercpp', 'progress': 'cmake'}
+[1.059392] (mytalkercpp) Command: {'cmd': ['/usr/bin/cmake', '/home/qkx515/myros2_ws/src/mytalkercpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_PREFIX_PATH=/opt/ros/bouncy', '-DCMAKE_INSTALL_PREFIX=/home/qkx515/myros2_ws/install/mytalkercpp'], 'cwd': '/home/qkx515/myros2_ws/build/mytalkercpp', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qkx515', 'TEXTDOMAIN': 'im-config', 'OSPL_INFOFILE': '<stdout>', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2495', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/bouncy/opt/rviz_yaml_cpp_vendor/lib:/opt/ros/bouncy/opt/rviz_ogre_vendor/lib:/opt/ros/bouncy/lib/x86_64-linux-gnu:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/bouncy/lib', 'SHLVL': '1', 'OLDPWD': '/home/qkx515/myros2_ws/src/mytalkercpp', 'OSPL_URI': 'file:///opt/ros/bouncy/share/opensplice_cmake_module/config/ros_ospl.xml', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/qkx515', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop', 'OSPL_VERBOSITY': '2', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-5.3.1', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OSPL_TMPL_PATH': '/usr/etc/opensplice/idlpp', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2696', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator20x1a6021154d881c', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'bouncy', 'LOGNAME': 'qkx515', 'GTK_IM_MODULE': 'ibus', 'DESKTOP_AUTOSTART_ID': '107587f527e4a4dce7153692607658200000000023700007', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'ROS_VERSION': '2', 'USERNAME': 'qkx515', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'OSPL_ERRORFILE': '<stderr>', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/bouncy/bin:/home/qkx515/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2370,unix/ubuntu:/tmp/.ICE-unix/2370', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'OSPL_HOME': '/usr', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/bouncy', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'TERMINATOR_UUID': 'urn:uuid:c2a4c6f2-6a81-4454-92bd-226cf8040527', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qkx515/myros2_ws/build/mytalkercpp', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/opt/ros/bouncy/lib/python3.6/site-packages', 'VTE_VERSION': '5202'}, 'shell': False}
+[1.093973] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running develop\n'}
+[1.097651] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[1.098753] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO\n'}
+[1.100035] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt\n'}
+[1.101139] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt\n'}
+[1.125691] (-) TimerEvent: {}
+[1.126205] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt\n'}
+[1.127307] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt\n'}
+[1.129288] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'\n"}
+[1.129896] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'\n"}
+[1.130561] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running build_ext\n'}
+[1.131323] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Creating /home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.6/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)\n'}
+[1.131791] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'examples-rclpy-minimal-publisher 0.0.0 is already the active version in easy-install.pth\n'}
+[1.132222] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_local_function script to /home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[1.132642] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_member_function script to /home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[1.133010] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_old_school script to /home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[1.135183] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'\n'}
+[1.138047] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installed /home/qkx515/myros2_ws/build/examples_rclpy_minimal_publisher\n'}
+[1.139135] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running install_data\n'}
+[1.142839] (mylistener) StdoutLine: {'line': b'running develop\n'}
+[1.145125] (mylistener) StdoutLine: {'line': b'running egg_info\n'}
+[1.147361] (mylistener) StdoutLine: {'line': b'writing mylistener.egg-info/PKG-INFO\n'}
+[1.149366] (mylistener) StdoutLine: {'line': b'writing dependency_links to mylistener.egg-info/dependency_links.txt\n'}
+[1.150044] (mylistener) StdoutLine: {'line': b'writing entry points to mylistener.egg-info/entry_points.txt\n'}
+[1.151004] (mylistener) StdoutLine: {'line': b'writing requirements to mylistener.egg-info/requires.txt\n'}
+[1.153610] (mylistener) StdoutLine: {'line': b'writing top-level names to mylistener.egg-info/top_level.txt\n'}
+[1.154044] (mylistener) StdoutLine: {'line': b"reading manifest file 'mylistener.egg-info/SOURCES.txt'\n"}
+[1.154557] (mylistener) StdoutLine: {'line': b"writing manifest file 'mylistener.egg-info/SOURCES.txt'\n"}
+[1.155072] (mylistener) StdoutLine: {'line': b'running build_ext\n'}
+[1.155522] (mylistener) StdoutLine: {'line': b'Creating /home/qkx515/myros2_ws/install/mylistener/lib/python3.6/site-packages/mylistener.egg-link (link to .)\n'}
+[1.155905] (mylistener) StdoutLine: {'line': b'mylistener 0.5.1 is already the active version in easy-install.pth\n'}
+[1.156267] (mylistener) StdoutLine: {'line': b'Installing listener script to /home/qkx515/myros2_ws/install/mylistener/lib/mylistener\n'}
+[1.157674] (mylistener) StdoutLine: {'line': b'\n'}
+[1.160333] (mylistener) StdoutLine: {'line': b'Installed /home/qkx515/myros2_ws/build/mylistener\n'}
+[1.160939] (mylistener) StdoutLine: {'line': b'running install_data\n'}
+[1.161558] (examples_rclpy_minimal_publisher) CommandEnded: {'returncode': 0}
+[1.164677] (examples_rclpy_minimal_publisher) JobEnded: {'identifier': 'examples_rclpy_minimal_publisher', 'rc': 0}
+[1.165195] (mylistener) CommandEnded: {'returncode': 0}
+[1.168679] (mylistener) JobEnded: {'identifier': 'mylistener', 'rc': 0}
+[1.225253] (-) TimerEvent: {}
+[1.325650] (-) TimerEvent: {}
+[1.362506] (mytalker) StdoutLine: {'line': b'running develop\n'}
+[1.425762] (-) TimerEvent: {}
+[1.469365] (mytalker) StdoutLine: {'line': b'running egg_info\n'}
+[1.470407] (mytalker) StdoutLine: {'line': b'writing mytalker.egg-info/PKG-INFO\n'}
+[1.471025] (mytalker) StdoutLine: {'line': b'writing dependency_links to mytalker.egg-info/dependency_links.txt\n'}
+[1.471342] (mytalker) StdoutLine: {'line': b'writing entry points to mytalker.egg-info/entry_points.txt\n'}
+[1.471654] (mytalker) StdoutLine: {'line': b'writing requirements to mytalker.egg-info/requires.txt\n'}
+[1.471956] (mytalker) StdoutLine: {'line': b'writing top-level names to mytalker.egg-info/top_level.txt\n'}
+[1.509570] (mytalker) StdoutLine: {'line': b"reading manifest file 'mytalker.egg-info/SOURCES.txt'\n"}
+[1.510885] (mytalker) StdoutLine: {'line': b"writing manifest file 'mytalker.egg-info/SOURCES.txt'\n"}
+[1.512615] (mytalker) StdoutLine: {'line': b'running build_ext\n'}
+[1.513140] (mytalker) StdoutLine: {'line': b'Creating /home/qkx515/myros2_ws/install/mytalker/lib/python3.6/site-packages/mytalker.egg-link (link to .)\n'}
+[1.513549] (mytalker) StdoutLine: {'line': b'mytalker 0.5.1 is already the active version in easy-install.pth\n'}
+[1.514607] (mytalker) StdoutLine: {'line': b'Installing talker script to /home/qkx515/myros2_ws/install/mytalker/lib/mytalker\n'}
+[1.515126] (mytalker) StdoutLine: {'line': b'\n'}
+[1.515454] (mytalker) StdoutLine: {'line': b'Installed /home/qkx515/myros2_ws/build/mytalker\n'}
+[1.515745] (mytalker) StdoutLine: {'line': b'running install_data\n'}
+[1.525941] (-) TimerEvent: {}
+[1.547267] (mytalker) CommandEnded: {'returncode': 0}
+[1.554944] (mytalker) JobEnded: {'identifier': 'mytalker', 'rc': 0}
+[1.626012] (-) TimerEvent: {}
+[1.726563] (-) TimerEvent: {}
+[1.827308] (-) TimerEvent: {}
+[1.928246] (-) TimerEvent: {}
+[2.029217] (-) TimerEvent: {}
+[2.129988] (-) TimerEvent: {}
+[2.230385] (-) TimerEvent: {}
+[2.330821] (-) TimerEvent: {}
+[2.431262] (-) TimerEvent: {}
+[2.531827] (-) TimerEvent: {}
+[2.632652] (-) TimerEvent: {}
+[2.733617] (-) TimerEvent: {}
+[2.834553] (-) TimerEvent: {}
+[2.873356] (mytalkercpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.3.0\n'}
+[2.934659] (-) TimerEvent: {}
+[3.035389] (-) TimerEvent: {}
+[3.135909] (-) TimerEvent: {}
+[3.236494] (-) TimerEvent: {}
+[3.336941] (-) TimerEvent: {}
+[3.437432] (-) TimerEvent: {}
+[3.537849] (-) TimerEvent: {}
+[3.638582] (-) TimerEvent: {}
+[3.739289] (-) TimerEvent: {}
+[3.782616] (mytalkercpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.3.0\n'}
+[3.839590] (-) TimerEvent: {}
+[3.880751] (mytalkercpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.939642] (-) TimerEvent: {}
+[4.030217] (mytalkercpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.031082] (mytalkercpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.039770] (-) TimerEvent: {}
+[4.103469] (mytalkercpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.108754] (mytalkercpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.140055] (-) TimerEvent: {}
+[4.240737] (-) TimerEvent: {}
+[4.341178] (-) TimerEvent: {}
+[4.371076] (mytalkercpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.373940] (mytalkercpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.441356] (-) TimerEvent: {}
+[4.460167] (mytalkercpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.460832] (mytalkercpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.541503] (-) TimerEvent: {}
+[4.549824] (mytalkercpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.554719] (mytalkercpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.641577] (-) TimerEvent: {}
+[4.742016] (-) TimerEvent: {}
+[4.842503] (-) TimerEvent: {}
+[4.914685] (mytalkercpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.942654] (-) TimerEvent: {}
+[5.002195] (mytalkercpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.5.1 (/opt/ros/bouncy/share/ament_cmake/cmake)\n'}
+[5.042797] (-) TimerEvent: {}
+[5.067973] (mytalkercpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.5", minimum required is "3") \n'}
+[5.068265] (mytalkercpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.142912] (-) TimerEvent: {}
+[5.243342] (-) TimerEvent: {}
+[5.343729] (-) TimerEvent: {}
+[5.357947] (mytalkercpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.444032] (-) TimerEvent: {}
+[5.479050] (mytalkercpp) StdoutLine: {'line': b'-- Found rclcpp: 0.5.1 (/opt/ros/bouncy/share/rclcpp/cmake)\n'}
+[5.544098] (-) TimerEvent: {}
+[5.554930] (mytalkercpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.5.0 (/opt/ros/bouncy/share/rmw_implementation_cmake/cmake)\n'}
+[5.644244] (-) TimerEvent: {}
+[5.744782] (-) TimerEvent: {}
+[5.783587] (mytalkercpp) StdoutLine: {'line': b'-- Found std_msgs: 0.5.1 (/opt/ros/bouncy/share/std_msgs/cmake)\n'}
+[5.822891] (mytalkercpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.5.2 (/opt/ros/bouncy/share/ament_lint_auto/cmake)\n'}
+[5.844931] (-) TimerEvent: {}
+[5.945463] (-) TimerEvent: {}
+[5.989239] (mytalkercpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.990351] (mytalkercpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.991578] (mytalkercpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.994618] (mytalkercpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.996287] (mytalkercpp) StderrLine: {'line': b'CMake Error at CMakeLists.txt:27 (add_executable):\n'}
+[5.996644] (mytalkercpp) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.996857] (mytalkercpp) StderrLine: {'line': b'\n'}
+[5.997055] (mytalkercpp) StderrLine: {'line': b'    talker.cpp\n'}
+[5.997248] (mytalkercpp) StderrLine: {'line': b'\n'}
+[5.997470] (mytalkercpp) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp\n'}
+[5.997667] (mytalkercpp) StderrLine: {'line': b'  .hxx .in .txx\n'}
+[5.997849] (mytalkercpp) StderrLine: {'line': b'\n'}
+[5.998025] (mytalkercpp) StderrLine: {'line': b'\n'}
+[6.004526] (mytalkercpp) StderrLine: {'line': b'CMake Error: CMake can not determine linker language for target: talker\n'}
+[6.004778] (mytalkercpp) StderrLine: {'line': b'CMake Error: Cannot determine link language for target "talker".\n'}
+[6.006266] (mytalkercpp) StdoutLine: {'line': b'-- Generating done\n'}
+[6.009309] (mytalkercpp) StdoutLine: {'line': b'-- Build files have been written to: /home/qkx515/myros2_ws/build/mytalkercpp\n'}
+[6.013733] (mytalkercpp) CommandEnded: {'returncode': 1}
+[6.014550] (mytalkercpp) JobEnded: {'identifier': 'mytalkercpp', 'rc': 1}
+[6.024999] (-) EventReactorShutdown: {}

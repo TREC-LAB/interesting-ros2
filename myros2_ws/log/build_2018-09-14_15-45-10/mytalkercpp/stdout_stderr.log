@@ -1,0 +1,17 @@
+-- Found ament_cmake: 0.5.1 (/opt/ros/bouncy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.5.1 (/opt/ros/bouncy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.5.0 (/opt/ros/bouncy/share/rmw_implementation_cmake/cmake)
+-- Found std_msgs: 0.5.1 (/opt/ros/bouncy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.5.2 (/opt/ros/bouncy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qkx515/myros2_ws/build/mytalkercpp
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker

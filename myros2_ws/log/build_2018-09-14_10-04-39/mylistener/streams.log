@@ -1,0 +1,21 @@
+Invoking command in '/home/qkx515/myros2_ws/build/mylistener': PYTHONPATH=/home/qkx515/myros2_ws/install/mylistener/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/qkx515/myros2_ws/install/mylistener --no-deps install_data --install-dir /home/qkx515/myros2_ws/install/mylistener
+running develop
+running egg_info
+creating mylistener.egg-info
+writing mylistener.egg-info/PKG-INFO
+writing dependency_links to mylistener.egg-info/dependency_links.txt
+writing entry points to mylistener.egg-info/entry_points.txt
+writing requirements to mylistener.egg-info/requires.txt
+writing top-level names to mylistener.egg-info/top_level.txt
+writing manifest file 'mylistener.egg-info/SOURCES.txt'
+reading manifest file 'mylistener.egg-info/SOURCES.txt'
+writing manifest file 'mylistener.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/qkx515/myros2_ws/install/mylistener/lib/python3.6/site-packages/site.py
+Creating /home/qkx515/myros2_ws/install/mylistener/lib/python3.6/site-packages/mylistener.egg-link (link to .)
+Adding mylistener 0.5.1 to easy-install.pth file
+Installing listener script to /home/qkx515/myros2_ws/install/mylistener/lib/mylistener
+
+Installed /home/qkx515/myros2_ws/build/mylistener
+running install_data
+Invoked command in '/home/qkx515/myros2_ws/build/mylistener' returned '0': PYTHONPATH=/home/qkx515/myros2_ws/install/mylistener/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/qkx515/myros2_ws/install/mylistener --no-deps install_data --install-dir /home/qkx515/myros2_ws/install/mylistener

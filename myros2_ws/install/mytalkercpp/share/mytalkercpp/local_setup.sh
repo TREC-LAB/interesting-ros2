@@ -1,0 +1,1 @@
+/home/qkx515/myros2_ws/build/mytalkercpp/ament_cmake_environment_hooks/local_setup.sh

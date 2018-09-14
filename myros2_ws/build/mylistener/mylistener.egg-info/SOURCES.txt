@@ -1,0 +1,12 @@
+listener.py
+package.xml
+setup.cfg
+setup.py
+mylistener.egg-info/PKG-INFO
+mylistener.egg-info/SOURCES.txt
+mylistener.egg-info/dependency_links.txt
+mylistener.egg-info/entry_points.txt
+mylistener.egg-info/requires.txt
+mylistener.egg-info/top_level.txt
+mylistener.egg-info/zip-safe
+resource/mylistener

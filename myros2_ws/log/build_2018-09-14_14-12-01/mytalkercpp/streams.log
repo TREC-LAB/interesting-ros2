@@ -1,0 +1,41 @@
+Invoking command in '/home/qkx515/myros2_ws/build/mytalkercpp': /usr/bin/cmake /home/qkx515/myros2_ws/src/mytalkercpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_PREFIX_PATH=/opt/ros/bouncy -DCMAKE_INSTALL_PREFIX=/home/qkx515/myros2_ws/install/mytalkercpp
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.5.1 (/opt/ros/bouncy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.5.1 (/opt/ros/bouncy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.5.0 (/opt/ros/bouncy/share/rmw_implementation_cmake/cmake)
+-- Found std_msgs: 0.5.1 (/opt/ros/bouncy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.5.2 (/opt/ros/bouncy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configuring done
+CMake Error at CMakeLists.txt:27 (add_executable):
+  Cannot find source file:
+
+    talker.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: talker
+CMake Error: Cannot determine link language for target "talker".
+-- Generating done
+-- Build files have been written to: /home/qkx515/myros2_ws/build/mytalkercpp
+Invoked command in '/home/qkx515/myros2_ws/build/mytalkercpp' returned '1': /usr/bin/cmake /home/qkx515/myros2_ws/src/mytalkercpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_PREFIX_PATH=/opt/ros/bouncy -DCMAKE_INSTALL_PREFIX=/home/qkx515/myros2_ws/install/mytalkercpp

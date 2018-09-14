@@ -1,0 +1,18 @@
+Invoking command in '/home/qkx515/myros2_ws/build/mytalker': PYTHONPATH=/home/qkx515/myros2_ws/install/mytalker/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/qkx515/myros2_ws/install/mytalker --no-deps install_data --install-dir /home/qkx515/myros2_ws/install/mytalker
+running develop
+running egg_info
+writing mytalker.egg-info/PKG-INFO
+writing dependency_links to mytalker.egg-info/dependency_links.txt
+writing entry points to mytalker.egg-info/entry_points.txt
+writing requirements to mytalker.egg-info/requires.txt
+writing top-level names to mytalker.egg-info/top_level.txt
+reading manifest file 'mytalker.egg-info/SOURCES.txt'
+writing manifest file 'mytalker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/qkx515/myros2_ws/install/mytalker/lib/python3.6/site-packages/mytalker.egg-link (link to .)
+mytalker 0.5.1 is already the active version in easy-install.pth
+Installing talker script to /home/qkx515/myros2_ws/install/mytalker/lib/mytalker
+
+Installed /home/qkx515/myros2_ws/build/mytalker
+running install_data
+Invoked command in '/home/qkx515/myros2_ws/build/mytalker' returned '0': PYTHONPATH=/home/qkx515/myros2_ws/install/mytalker/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/qkx515/myros2_ws/install/mytalker --no-deps install_data --install-dir /home/qkx515/myros2_ws/install/mytalker

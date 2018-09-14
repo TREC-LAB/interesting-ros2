@@ -1,0 +1,28 @@
+Invoking command in '/home/qkx515/myros2_ws/build/mylistenercpp': /usr/bin/cmake --build /home/qkx515/myros2_ws/build/mylistenercpp -- -j4 -l4
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[01m[K/home/qkx515/myros2_ws/src/mylistenercpp/src/listener.cpp:22:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+ }
+  [01;31m[K^[m[K
+  [32m[K;[m[K
+[01m[K/home/qkx515/myros2_ws/src/mylistenercpp/src/listener.cpp:24:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K.[m[K’ token
+ int main(int argc[01;31m[K.[m[K char** argv)
+                  [01;31m[K^[m[K
+[01m[K/home/qkx515/myros2_ws/src/mylistenercpp/src/listener.cpp:24:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint main(int)[m[K’ takes only zero or two arguments [[01;35m[K-Wmain[m[K]
+ int [01;35m[Kmain[m[K(int argc. char** argv)
+     [01;35m[K^~~~[m[K
+[01m[K/home/qkx515/myros2_ws/src/mylistenercpp/src/listener.cpp:[m[K In function ‘[01m[Kint main(int)[m[K’:
+[01m[K/home/qkx515/myros2_ws/src/mylistenercpp/src/listener.cpp:26:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+     rclcpp::init(argc, [01;31m[Kargv[m[K);
+                        [01;31m[K^~~~[m[K
+[01m[K/home/qkx515/myros2_ws/src/mylistenercpp/src/listener.cpp:26:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kargc[m[K’
+     rclcpp::init(argc, [01;36m[Kargv[m[K);
+                        [01;36m[K^~~~[m[K
+                        [32m[Kargc[m[K
+make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+CMakeFiles/listener.dir/build.make:62: recipe for target 'CMakeFiles/listener.dir/src/listener.cpp.o' failed
+CMakeFiles/Makefile2:291: recipe for target 'CMakeFiles/listener.dir/all' failed
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+Invoked command in '/home/qkx515/myros2_ws/build/mylistenercpp' returned '2': /usr/bin/cmake --build /home/qkx515/myros2_ws/build/mylistenercpp -- -j4 -l4

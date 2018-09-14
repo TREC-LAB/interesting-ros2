@@ -1,0 +1,198 @@
+[0.379s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.379s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', bazel_args=None, bazel_task=None, build_base='build', catkin_cmake_args=None, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc13fab3518>>, merge_install=False, metas='./colcon.meta', mixin=None, mixin_verb=('build',), packages_above=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_by_dep=None, packages_select_regex=None, packages_skip=None, packages_skip_by_dep=None, packages_skip_regex=None, packages_start=None, packages_up_to=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_name='build')
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.423s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qkx515/myros2_ws'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extensions ['bazel', 'cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'bazel'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/build) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/build) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/install) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/install) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/log) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/log) ignored
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extensions ['bazel', 'cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'bazel'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/minimal_publisher) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qkx515/myros2_ws/src/minimal_publisher' with type 'ros.ament_python' and name 'examples_rclpy_minimal_publisher'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistener) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qkx515/myros2_ws/src/mylistener' with type 'ros.ament_python' and name 'mylistener'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mylistenercpp) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qkx515/myros2_ws/src/mylistenercpp' with type 'ros.ament_cmake' and name 'mylistenercpp'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalker) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qkx515/myros2_ws/src/mytalker' with type 'ros.ament_python' and name 'mytalker'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/qkx515/myros2_ws/src/mytalkercpp) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package '/home/qkx515/myros2_ws/src/mytalkercpp' with type 'ros.ament_cmake' and name 'mytalkercpp'
+[0.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'bazel_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'bazel_task' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_target' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_minimal_publisher' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/qkx515/myros2_ws/build/examples_rclpy_minimal_publisher', 'catkin_cmake_args': None, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher', 'path': '/home/qkx515/myros2_ws/src/minimal_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'bazel_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'bazel_task' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'mylistener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'mylistener' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/qkx515/myros2_ws/build/mylistener', 'catkin_cmake_args': None, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qkx515/myros2_ws/install/mylistener', 'path': '/home/qkx515/myros2_ws/src/mylistener', 'symlink_install': True, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'bazel_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'bazel_task' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'cmake_target' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'mylistenercpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] DEBUG:colcon.colcon_core.verb:Building package 'mylistenercpp' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/qkx515/myros2_ws/build/mylistenercpp', 'catkin_cmake_args': None, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qkx515/myros2_ws/install/mylistenercpp', 'path': '/home/qkx515/myros2_ws/src/mylistenercpp', 'symlink_install': True, 'test_result_base': None}
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'bazel_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'bazel_task' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'cmake_target' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'cmake_clean_first' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'cmake_force_configure' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'ament_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'mytalker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'mytalker' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/qkx515/myros2_ws/build/mytalker', 'catkin_cmake_args': None, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qkx515/myros2_ws/install/mytalker', 'path': '/home/qkx515/myros2_ws/src/mytalker', 'symlink_install': True, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'bazel_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'bazel_task' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'mytalkercpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'mytalkercpp' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/qkx515/myros2_ws/build/mytalkercpp', 'catkin_cmake_args': None, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qkx515/myros2_ws/install/mytalkercpp', 'path': '/home/qkx515/myros2_ws/src/mytalkercpp', 'symlink_install': True, 'test_result_base': None}
+[0.468s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.469s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qkx515/myros2_ws/src/minimal_publisher' with build type 'ament_python'
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclpy_minimal_publisher', 'ament_prefix_path')
+[0.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher/hook/ament_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher/hook/ament_prefix_path.sh'
+[0.477s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qkx515/myros2_ws/src/minimal_publisher'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qkx515/myros2_ws/src/mylistener' with build type 'ament_python'
+[0.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('mylistener', 'ament_prefix_path')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qkx515/myros2_ws/install/mylistener/share/mylistener/hook/ament_prefix_path.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qkx515/myros2_ws/install/mylistener/share/mylistener/hook/ament_prefix_path.sh'
+[0.485s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qkx515/myros2_ws/src/mylistener'
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qkx515/myros2_ws/src/mylistenercpp' with build type 'ament_cmake'
+[0.492s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qkx515/myros2_ws/src/mylistenercpp'
+[0.492s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qkx515/myros2_ws/src/mytalker' with build type 'ament_python'
+[0.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('mytalker', 'ament_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qkx515/myros2_ws/install/mytalker/share/mytalker/hook/ament_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qkx515/myros2_ws/install/mytalker/share/mytalker/hook/ament_prefix_path.sh'
+[0.499s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qkx515/myros2_ws/src/mytalker'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qkx515/myros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher --no-deps install_data --install-dir /home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qkx515/myros2_ws/build/mylistener': PYTHONPATH=/home/qkx515/myros2_ws/install/mylistener/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/qkx515/myros2_ws/install/mylistener --no-deps install_data --install-dir /home/qkx515/myros2_ws/install/mylistener
+[1.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qkx515/myros2_ws/build/mylistenercpp': /usr/bin/cmake --build /home/qkx515/myros2_ws/build/mylistenercpp -- -j4 -l4
+[1.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[1.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[1.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[1.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.789s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.824s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.825s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.825s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.827s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qkx515/myros2_ws/install/local_setup.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qkx515/myros2_ws/install/setup.ps1'
+[1.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qkx515/myros2_ws/install/local_setup.sh'
+[1.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qkx515/myros2_ws/install/setup.sh'
+[1.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qkx515/myros2_ws/install/local_setup.bash'
+[1.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qkx515/myros2_ws/install/setup.bash'
+[1.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qkx515/myros2_ws/install/local_setup.zsh'
+[1.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qkx515/myros2_ws/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/qkx515/myros2_ws/build/mytalkercpp/ament_cmake_core/mytalkercppConfig-version.cmake

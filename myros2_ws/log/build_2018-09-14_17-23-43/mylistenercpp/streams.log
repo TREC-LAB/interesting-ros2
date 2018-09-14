@@ -1,0 +1,36 @@
+Invoking command in '/home/qkx515/myros2_ws/build/mylistenercpp': /usr/bin/cmake /home/qkx515/myros2_ws/src/mylistenercpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_PREFIX_PATH=/home/qkx515/myros2_ws/install/mytalkercpp;/home/qkx515/myros2_ws/install/mytalker;/home/qkx515/myros2_ws/install/mylistener;/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher;/opt/ros/bouncy;/home/qkx515/myros2_ws/install/mytalkercpp -DCMAKE_INSTALL_PREFIX=/home/qkx515/myros2_ws/install/mylistenercpp
+-- Found ament_cmake: 0.5.1 (/opt/ros/bouncy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 0.5.1 (/opt/ros/bouncy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.5.0 (/opt/ros/bouncy/share/rmw_implementation_cmake/cmake)
+-- Found std_msgs: 0.5.1 (/opt/ros/bouncy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.5.2 (/opt/ros/bouncy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qkx515/myros2_ws/build/mylistenercpp
+Invoked command in '/home/qkx515/myros2_ws/build/mylistenercpp' returned '0': /usr/bin/cmake /home/qkx515/myros2_ws/src/mylistenercpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_PREFIX_PATH=/home/qkx515/myros2_ws/install/mytalkercpp;/home/qkx515/myros2_ws/install/mytalker;/home/qkx515/myros2_ws/install/mylistener;/home/qkx515/myros2_ws/install/examples_rclpy_minimal_publisher;/opt/ros/bouncy;/home/qkx515/myros2_ws/install/mytalkercpp -DCMAKE_INSTALL_PREFIX=/home/qkx515/myros2_ws/install/mylistenercpp
+Invoking command in '/home/qkx515/myros2_ws/build/mylistenercpp': /usr/bin/cmake --build /home/qkx515/myros2_ws/build/mylistenercpp -- -j4 -l4
+[100%] Built target listener
+Invoked command in '/home/qkx515/myros2_ws/build/mylistenercpp' returned '0': /usr/bin/cmake --build /home/qkx515/myros2_ws/build/mylistenercpp -- -j4 -l4
+Invoking command in '/home/qkx515/myros2_ws/build/mylistenercpp': /usr/bin/cmake --build /home/qkx515/myros2_ws/build/mylistenercpp --target install
+[100%] Built target listener
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/lib/mylistenercpp/listener
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/ament_index/resource_index/package_run_dependencies/mylistenercpp
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/ament_index/resource_index/parent_prefix_path/mylistenercpp
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/mylistenercpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/mylistenercpp/environment/path.sh
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/mylistenercpp/local_setup.bash
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/mylistenercpp/local_setup.sh
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/mylistenercpp/local_setup.zsh
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/ament_index/resource_index/packages/mylistenercpp
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/mylistenercpp/cmake/mylistenercppConfig.cmake
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/mylistenercpp/cmake/mylistenercppConfig-version.cmake
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mylistenercpp/share/mylistenercpp/package.xml
+Invoked command in '/home/qkx515/myros2_ws/build/mylistenercpp' returned '0': /usr/bin/cmake --build /home/qkx515/myros2_ws/build/mylistenercpp --target install

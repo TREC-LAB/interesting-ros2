@@ -1,0 +1,39 @@
+Invoking command in '/home/qkx515/myros2_ws/build/mylistener': PYTHONPATH=/home/qkx515/myros2_ws/install/mylistener/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/qkx515/myros2_ws/install/mylistener --no-deps install_data --install-dir /home/qkx515/myros2_ws/install/mylistener
+Traceback (most recent call last):
+  File "setup.py", line 34, in <module>
+    'listener = listener:main',
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 129, in setup
+    return distutils.core.setup(**attrs)
+  File "/usr/lib/python3.6/distutils/core.py", line 134, in setup
+    ok = dist.parse_command_line()
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 499, in parse_command_line
+    result = _Distribution.parse_command_line(self)
+  File "/usr/lib/python3.6/distutils/dist.py", line 472, in parse_command_line
+    args = self._parse_command_opts(parser, args)
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 814, in _parse_command_opts
+    nargs = _Distribution._parse_command_opts(self, parser, args)
+  File "/usr/lib/python3.6/distutils/dist.py", line 528, in _parse_command_opts
+    cmd_class = self.get_command_class(command)
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 634, in get_command_class
+    self.cmdclass[command] = cmdclass = ep.load()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2324, in load
+    return self.resolve()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2330, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/usr/lib/python3/dist-packages/setuptools/command/develop.py", line 11, in <module>
+    from setuptools.command.easy_install import easy_install
+  File "/usr/lib/python3/dist-packages/setuptools/command/easy_install.py", line 52, in <module>
+    from setuptools.package_index import (
+  File "/usr/lib/python3/dist-packages/setuptools/package_index.py", line 13, in <module>
+    from setuptools.extern.six.moves import urllib, http_client, configparser, map
+  File "<frozen importlib._bootstrap>", line 1020, in _handle_fromlist
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/six.py", line 92, in __get__
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/six.py", line 115, in _resolve
+    return _import_module(self.mod)
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/six.py", line 82, in _import_module
+    __import__(name)
+  File "/usr/lib/python3.6/http/__init__.py", line 5, in <module>
+    class HTTPStatus(IntEnum):
+  File "/usr/lib/python3.6/enum.py", line 153, in __new__
+    enum_class = super().__new__(metacls, cls, bases, classdict)
+KeyboardInterrupt

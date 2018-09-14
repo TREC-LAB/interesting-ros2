@@ -1,0 +1,12 @@
+/home/qkx515/myros2_ws/install/mytalkercpp/lib/mytalkercpp/talker
+/home/qkx515/myros2_ws/install/mytalkercpp/share/ament_index/resource_index/package_run_dependencies/mytalkercpp
+/home/qkx515/myros2_ws/install/mytalkercpp/share/ament_index/resource_index/parent_prefix_path/mytalkercpp
+/home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/environment/ament_prefix_path.sh
+/home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/environment/path.sh
+/home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/local_setup.bash
+/home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/local_setup.sh
+/home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/local_setup.zsh
+/home/qkx515/myros2_ws/install/mytalkercpp/share/ament_index/resource_index/packages/mytalkercpp
+/home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/cmake/mytalkercppConfig.cmake
+/home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/cmake/mytalkercppConfig-version.cmake
+/home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/package.xml

@@ -1,0 +1,17 @@
+[100%] Built target talker
+[100%] Built target talker
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/lib/mytalkercpp/talker
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/ament_index/resource_index/package_run_dependencies/mytalkercpp
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/ament_index/resource_index/parent_prefix_path/mytalkercpp
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/environment/path.sh
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/local_setup.bash
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/local_setup.sh
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/local_setup.zsh
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/ament_index/resource_index/packages/mytalkercpp
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/cmake/mytalkercppConfig.cmake
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/cmake/mytalkercppConfig-version.cmake
+-- Up-to-date symlink: /home/qkx515/myros2_ws/install/mytalkercpp/share/mytalkercpp/package.xml

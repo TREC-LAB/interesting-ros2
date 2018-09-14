@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+CMakeFiles/listener.dir/build.make:62: recipe for target 'CMakeFiles/listener.dir/src/listener.cpp.o' failed
+CMakeFiles/Makefile2:291: recipe for target 'CMakeFiles/listener.dir/all' failed
+Makefile:140: recipe for target 'all' failed

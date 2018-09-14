@@ -1,0 +1,2 @@
+Invoking command in '/home/qkx515/myros2_ws/build/mytalkercpp': /usr/bin/cmake /home/qkx515/myros2_ws/src/mytalkercpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_PREFIX_PATH=/opt/ros/bouncy -DCMAKE_INSTALL_PREFIX=/home/qkx515/myros2_ws/install/mytalkercpp
+Invoked command in '/home/qkx515/myros2_ws/build/mytalkercpp' returned '1': /usr/bin/cmake /home/qkx515/myros2_ws/src/mytalkercpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_PREFIX_PATH=/opt/ros/bouncy -DCMAKE_INSTALL_PREFIX=/home/qkx515/myros2_ws/install/mytalkercpp
