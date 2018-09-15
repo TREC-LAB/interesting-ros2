@@ -1,1 +1,0 @@
-/home/qkx515/myros2_ws/src/minimal_publisher/publisher_old_school.py

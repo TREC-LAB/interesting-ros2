@@ -1,1 +1,0 @@
-/home/qkx515/myros2_ws/src/minimal_publisher/setup.py
