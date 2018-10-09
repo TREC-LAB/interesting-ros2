@@ -4,27 +4,16 @@
 
 > A curated list of awesome Robot Operating System Version 2.0 (ROS 2) resources and libraries.
 
-## Contents
-
-- [Packages](#packages)
-- [Operating systems](#operating-systems)
-- [Documentation](#documentation)
-- [Community](#community)
-- [Books](#books)
-- [Courses](#courses)
-- [Presentations](#presentations)
-- [Papers](#papers)
-- [Podcasts](#podcasts)
 
 ## Packages
 
-### Demostrations
+_**Demostrations**_
 
 - [adlink_ddsbot](https://github.com/Adlink-ROS/adlink_ddsbot) - The ROS 2.0/1.0 based robots swarm architecture (opensplice DDS) ![adlink_ddsbot](https://img.shields.io/github/stars/Adlink-ROS/adlink_ddsbot.svg).
 - [adlink_neuronbot](https://github.com/Adlink-ROS/adlink_neuronbot) - ROS2/DDS robot pkg for human following and swarm ![adlink_neuronbot](https://img.shields.io/github/stars/Adlink-ROS/adlink_neuronbot.svg).
 - [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3/tree/ros2) - ROS2 based TurtleBot3 demo including Bringup, Teleop and Cartographer ![turtlebot3](https://img.shields.io/github/stars/ROBOTIS-GIT/turtlebot3.svg).
 
-### Examples
+_**Examples**_
 
 - [turtlebot2_demo](https://github.com/ros2/turtlebot2_demo) - TurtleBot 2 demos using ROS 2 ![turtlebot2_demo](https://img.shields.io/github/stars/ros2/turtlebot2_demo.svg).
 - [examples/rclcpp](https://github.com/ros2/examples/tree/master/rclcpp) - C++ examples ![ros2/examples](https://img.shields.io/github/stars/ros2/examples.svg).
@@ -32,18 +21,18 @@
 - [rcljava_examples](https://github.com/esteve/ros2_java_examples/tree/master/rcljava_examples) - Package containing examples of how to use the rcljava API ![ros2_java_examples](https://img.shields.io/github/stars/esteve/ros2_java_examples.svg).
 - [ros2_talker_android, ros2_listener_android](https://github.com/esteve/ros2_android_examples) - Example Android apps for the ROS2 Java bindings ![ros2_android_examples](https://img.shields.io/github/stars/esteve/ros2_android_examples.svg).
 
-### Benchmarking
+_**Benchmarking**_
 
 - [ros2_benchmarking](https://github.com/piappl/ros2_benchmarking) - Framework for ROS2 benchmarking. ROS2 communication characteristics can be evaluated on several axes, quickly and in an automated way ![ros2_benchmarking](https://img.shields.io/github/stars/piappl/ros2_benchmarking.svg).
 - [performance_test](https://github.com/ApexAI/performance_test) - Test performance and latency of various communication means like ROS 2, FastRTPS and Connext DDS Micro ![performance_test](https://img.shields.io/github/stars/ApexAI/performance_test.svg).
 
-### Containerization
+_**Containerization**_
 
 - [docker-ros2-ospl-ce](https://github.com/Adlink-ROS/docker-ros2-ospl-ce) - A dockerfile to build a ROS2 + OpenSplice CE container ![docker-ros2-ospl-ce](https://img.shields.io/github/stars/Adlink-ROS/docker-ros2-ospl-ce.svg).
 - [ros2_java_docker](https://github.com/esteve/ros2_java_docker) - Dockerfiles for building ros2_java with OpenJDK and Android ![ros2_java_docker](https://img.shields.io/github/stars/esteve/ros2_java_docker.svg).
 - [microROS/docker](https://github.com/microROS/docker) - Docker-related material to setup, configure and develop with micro-ROS hardware.
 
-### Ecosystem
+_**Ecosystem**_
 
 - [rosbag2](https://github.com/ros2/rosbag2) - ROS2 native rosbag ![rosbag2](https://img.shields.io/github/stars/ros2/rosbag2.svg).
 - [rviz](https://github.com/ros2/rviz) - 3D Robot Visualizer ![rviz](https://img.shields.io/github/stars/ros2/rviz.svg).
@@ -52,7 +41,7 @@
 - [ros2cli](https://github.com/ros2/ros2cli) - ROS 2 command line tools ![ros2cli](https://img.shields.io/github/stars/ros2/ros2cli.svg).
 - [orocos_kinematics_dynamics](https://github.com/ros2/orocos_kinematics_dynamics) - Orocos Kinematics and Dynamics C++ library ![orocos_kinematics_dynamics](https://img.shields.io/github/stars/ros2/orocos_kinematics_dynamics.svg).
 
-### Application layer
+_**Application layer**_
 
 - [ros2_control](https://github.com/ros-controls/ros2_control) - `ros2_control` is a proof of concept on how new features within ROS 2 can be elaborated and used in the context of robot control (`ros2_controllers`) ![ros2_control](https://img.shields.io/github/stars/ros-controls/ros2_control.svg).
 - [ros2_controllers](https://github.com/ros-controls/ros2_controllers) - Description of ros_controllers ![ros2_controllers](https://img.shields.io/github/stars/ros-controls/ros2_controllers.svg).
@@ -72,13 +61,13 @@
 - [ros2-web-bridge](https://github.com/RobotWebTools/ros2-web-bridge) - Bridging your browser to the ROS 2.0 ![ros2-web-bridge](https://img.shields.io/github/stars/RobotWebTools/ros2-web-bridge.svg).
 - [ros2_message_filters](https://github.com/intel/ros2_message_filters) - ros2_message_filters blends various messages based on the conditions that filter needs to met and derives from ROS2 porting of ROS message_filters ![ros2_message_filters](https://img.shields.io/github/stars/intel/ros2_message_filters.svg).
 
-### "System" bindings
+_**"System" bindings**_
 
 - [rclandroid](https://github.com/esteve/ros2_android/tree/master/rclandroid) - Android API for ROS2 ![rclandroid](https://img.shields.io/github/stars/esteve/ros2_android.svg).
 - [rclnodejs](https://github.com/RobotWebTools/rclnodejs) - Node.js version of ROS2.0 client ![rclnodejs](https://img.shields.io/github/stars/RobotWebTools/rclnodejs.svg).
 - [riot-ros2](https://github.com/astralien3000/riot-ros2) - This project enables ROS2 to run on microcontrollers using the RIOT Operating System ![riot-ros2](https://img.shields.io/github/stars/astralien3000/riot-ros2.svg).
 
-### Driver layer
+_**Driver layer**_
 
 - [joystick_drivers](https://github.com/ros2/joystick_drivers) - ROS2 drivers for joysticks ![joystick_drivers](https://img.shields.io/github/stars/ros2/joystick_drivers.svg).
 - [ros_astra_camera](https://github.com/ros2/ros_astra_camera) - ROS2 wrapper for Astra camera ![ros_astra_camera](https://img.shields.io/github/stars/ros2/ros_astra_camera.svg).
@@ -87,7 +76,7 @@
 - [raspicam2_node](https://github.com/christianrauch/raspicam2_node) - ROS2 node for camera module of Raspberry Pi ![raspicam2_node](https://img.shields.io/github/stars/christianrauch/raspicam2_node.svg).
 - [HRIM](https://github.com/erlerobot/HRIM) - A standard interface for robot modules.
 
-### Client libraries
+_**Client libraries**_
 
 - [rclada](https://github.com/ada-ros/rclada) - ROS Client Library for Ada ![rclada](https://img.shields.io/github/stars/ada-ros/rclada.svg).
 - [rclcpp](https://github.com/ros2/rclcpp) - ROS Client Library for C++ ![rclcpp](https://img.shields.io/github/stars/ros2/rclcpp.svg).
@@ -99,13 +88,13 @@
 - [ros2_rust](https://github.com/esteve/ros2_rust) - Rust bindings for ROS2 ![ros2_rust](https://img.shields.io/github/stars/esteve/ros2_rust.svg).
 - [ros2_dotnet](https://github.com/esteve/ros2_dotnet) - .NET bindings for ROS2 ![ros2_dotnet](https://img.shields.io/github/stars/esteve/ros2_dotnet.svg).
 
-### Client libraries common
+_**Client libraries common**_
 
 - [rcl](https://github.com/ros2/rcl) - Library to support implementation of language specific ROS Client Libraries ![rcl](https://img.shields.io/github/stars/ros2/rcl.svg).
 - [system_tests](https://github.com/ros2/system_tests) - Tests for rclcpp and rclpy ![system_tests](https://img.shields.io/github/stars/ros2/system_tests.svg).
 - [rcl_interfaces](https://github.com/ros2/rcl_interfaces) - A repository for messages and services used by the ROS client libraries ![rcl_interfaces](https://img.shields.io/github/stars/ros2/rcl_interfaces.svg).
 
-### IDL generators
+_**IDL generators**_
 
 - [rosidl_generator_java](https://github.com/esteve/ros2_java/tree/master/rosidl_generator_java) - Generate the ROS interfaces in Java ![ros2_java](https://img.shields.io/github/stars/esteve/ros2_java.svg).
 - [rosidl_generator_objc](https://github.com/esteve/ros2_objc/tree/master/rosidl_generator_objc) - Generate the ROS interfaces in Objective C ![ros2_objc](https://img.shields.io/github/stars/esteve/ros2_objc.svg).
@@ -114,7 +103,7 @@
 - [rosidl](https://github.com/ros2/rosidl) - Packages which provide the ROS IDL (.msg) definition and code generation ![rosidl](https://img.shields.io/github/stars/ros2/rosidl.svg).
 - [rosidl_dds](https://github.com/ros2/rosidl_dds) - Generate the DDS interfaces for ROS interfaces ![rosidl_dds](https://img.shields.io/github/stars/ros2/rosidl_dds.svg).
 
-### RMW (ROS middleware)
+_**RMW (ROS middleware)**_
 
 - [rmw](https://github.com/ros2/rmw/tree/master/rmw) - Contains the ROS middleware API ![rmw](https://img.shields.io/github/stars/ros2/rmw.svg).
 - [rmw_connext_cpp](https://github.com/ros2/rmw_connext/tree/master/rmw_connext_cpp) - Implement the ROS middleware interface using RTI Connext static code generation in C++ ![rmw_connext_cpp](https://img.shields.io/github/stars/ros2/rmw_connext.svg).
@@ -126,7 +115,7 @@
 - [rcutils](https://github.com/ros2/rcutils) - Common C functions and data structures used in ROS 2 ![rmw](https://img.shields.io/github/stars/ros2/rcutils.svg).
 - [freertps](https://github.com/ros2/freertps) - a free, portable, minimalist, work-in-progress RTPS implementation ![rmw](https://img.shields.io/github/stars/ros2/freertps.svg).
 
-### DDS communication mechanism implementations
+_**DDS communication mechanism implementations**_
 
 - [Connext DDS](https://www.rti.com/products/dds) - Connectivity Software for Developing and Integrating IIoT Systems :heavy_dollar_sign: .
 - [Fast-RTPS](https://github.com/eProsima/Fast-RTPS) - Implementation of RTPS Standard (RTPS is the wire interoperability protocol for DDS) ![Fast-RTPS](https://img.shields.io/github/stars/eProsima/Fast-RTPS.svg).
@@ -134,11 +123,11 @@
 - [CoreDX DDS](http://www.twinoakscomputing.com/coredx) - Implementation of Twin Oaks Computing, Inc. :heavy_dollar_sign: .
 - [freertps](https://github.com/ros2/freertps) - A free, portable, minimalist, work-in-progress RTPS implementation ![freertps](https://img.shields.io/github/stars/ros2/freertps.svg).
 
-### Build system (Linux)
+_**Build system (Linux)**_
 
 - [meta-ros2](https://github.com/erlerobot/meta-ros2) - ROS 2 Layer for OpenEmbedded Linux ![meta-ros2](https://img.shields.io/github/stars/erlerobot/meta-ros2.svg).
 
-### Build system (ROS2)
+_**Build system (ROS2)**_
 
 - [ci](https://github.com/ros2/ci) - ROS 2 CI Infrastructure ![ci](https://img.shields.io/github/stars/ros2/ci.svg).
 - [ament_cmake_export_jars](https://github.com/esteve/ros2_java/tree/master/ament_cmake_export_jars) - The ability to export Java archives to downstream packages in the ament buildsystem in CMake ![ros2_java](https://img.shields.io/github/stars/esteve/ros2_java.svg).
@@ -179,7 +168,7 @@
 
 ## Presentations
 
-### ROSCon 2018
+_**ROSCon 2018**_
 
 [program announcement](https://roscon.ros.org/2018/#program)
 
@@ -199,36 +188,36 @@
 - Node.js Client & Web Bridge Ready for ROS 2.0
 - RCLAda: the Ada client library for ROS2
 
-### Embedded World Conference 2018 
+_**Embedded World Conference 2018**_
 
 - ADLink Neuron: An industrial oriented ROS2-based platform [Slides](https://raw.githubusercontent.com/Adlink-ROS/adlink_neuronbot/master/document/ADLINK_NeuronBot_20180313.pdf) [Video](https://www.youtube.com/watch?v=RC6XvTvTs9Y&feature=youtu.be) [Video](https://www.youtube.com/watch?v=qA4_Hmnd_tM&feature=youtu.be)
 
-### 2018
+_**2018**_
 
 - ROS2 - The Robot Operating System Version 2 (TNG Technology Consulting GmbH) [Slides](https://www.tngtech.com/fileadmin/Public/Images/BigTechday/BTD11/Folien/ROS2.pdf) [Video](https://www.youtube.com/watch?v=6Vzi0Grrlp8)
 
-### ROS Industrial Conference 2017
+_**ROS Industrial Conference 2017**_
 
 - micro Robot Operating System: ROS for highly resource-constrained devices [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/5a3bb6d524a6947d9d0cbc68/1513862873907/07_Losa.pdf)
 - ROS2 - it's coming [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/5a3bb787e4966b606fe227d7/1513863070599/11_Thomas.pdf)
 
-### ROSCon 2017
+_**ROSCon 2017**_
 
 - The ROS 2 vision for advancing the future of robotics development [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Vision.pdf) [Video](https://vimeo.com/236161417)
 - ROS2 Fine Tuning [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Fine%20Tuning.pdf) [Video](https://vimeo.com/236168591)
 - SLAM on Turtlebot2 using ROS2 [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20SLAM.pdf) [Video](https://vimeo.com/236172294)
 - Using ROS2 for Vision-Based Manipulation with Industrial Robots [Slides](https://roscon.ros.org/2017/presentations/ROSCon%202017%20ROS2%20Vision-Based%20Manipulation.pdf) [Video](https://vimeo.com/236182180)
 
-### ROS Industrial Conference 2016
+_**ROS Industrial Conference 2016**_
 
 - ROS 2.0 AND OPC UA: A STATUS UPDATE [Slides](https://static1.squarespace.com/static/51df34b1e4b08840dcfd2841/t/58235f2eb8a79be587899891/1478713139775/ROS-I-Conf2016-day1-09-keinert.pdf)
 
-### ROSCon 2016
+_**ROSCon 2016**_
 
 - ROS 2 Update [Slides](https://roscon.ros.org/2016/presentations/ROSCon%202016%20-%20ROS%202%20Update.pdf) [Video](https://vimeo.com/187696091)
 - Evaluating the resilience of ROS2 communication layer [Slides](https://roscon.ros.org/2016/presentations/rafal.kozik-ros2evaluation.pdf) [Video](https://vimeo.com/187705229)
 
-### ROSCon 2015
+_**ROSCon 2015**_
 
 - ROS 2 on “small” embedded systems [Slides](https://roscon.ros.org/2015/presentations/ros2_on_small_embedded_systems.pdf) [Video](https://vimeo.com/142150576)
 - State of ROS 2 - demos and the technology behind [Slides](https://roscon.ros.org/2015/presentations/state-of-ros2.pdf) [Video](https://vimeo.com/142151734)
